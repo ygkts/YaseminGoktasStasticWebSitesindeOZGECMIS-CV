@@ -1,0 +1,215 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, Helvetica, sans-serif;
+  background-image: url(../../Images/calismaKahve.jpg);
+  background-color: #cccccc;
+  height: 2700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Style the header */
+header {
+ 
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */        
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+img{
+    width: 350px;
+    height: 465px;
+    margin-right: 100px;
+}
+p{
+    font-style: inherit;
+    font-size: 30px;
+    margin-left: 100px;
+    color: white;
+}
+#h101
+{
+    color: white;
+    font-size: 35px;
+    margin-left: 300px;
+}
+#bar{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+}
+#logo
+{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size:  30px;
+}
+#anasayfa {
+    background-image: url(../../Images/masa.jpg);
+}
+button {
+    background-color: transparent;
+    color: white;
+    border-style: double;
+    width: 250px;
+    height: 50px;
+    border-color: burlywood;
+    font-size: large;
+    font-family: 'Goudy Old Style';
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+iframe{
+    margin-left: 80px;
+}
+h1{
+    margin-top: 10px;
+    font-family: 'Trebuchet MS';
+}
+.ozetbilgi{
+    height: 600px;
+    width: 100%;
+    background-image: url(../../Images/coffee.jpg);
+    background-color: transparent;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.ozetbilgi:hover{
+    width: 100%;
+    height: 900px;
+}
+.homepage{
+    height: 400px;
+    width: 100%;
+    background-image: url(../../Images/codeDefter.jpg);
+    background-color: transparent;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.homepage:hover{
+    height: 900px;
+    width: 100%;
+}
+.projects{
+    height: 600px; 
+    width: 100%;
+    background-image: url(../../Images/kod.jpg);
+    background-color: transparent;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.projects:hover{
+    height: 900px; 
+    width: 100%;
+}
+.contact{
+    height: 600px;
+    width: 100%;
+    background-image: url(../../Images/DEFTERgozluk.jpg);
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.contact:hover{
+    height: 900px;
+    width: 100%;
+}
+.proje-resim{
+    background-color: transparent;
+    color: white;
+    border-style: double;
+    width: 1000px;
+    height: 170px;
+    border-color: burlywood;
+    font-size: 70px;
+    font-family: 'Goudy Old Style';
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+.proje-resim:hover{
+    background-color: lightpink;
+    color: black;
+}
+.text{
+    margin-left: 630px;
+    color: white;
+    font-family: 'Goudy Old Style';
+}
+.text2{
+    margin-left: 500px;
+    color: white;
+    font-family: 'Goudy Old Style';
+}

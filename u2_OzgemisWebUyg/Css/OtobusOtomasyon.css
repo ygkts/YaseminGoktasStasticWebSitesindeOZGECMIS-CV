@@ -1,0 +1,78 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, Helvetica, sans-serif;
+    background-image: url(../../Images/otobusKiralama.png);
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+img{
+    width: 350px;
+    height: 465px;
+    margin-right: 100px;
+}
+#rentacar {
+    margin: 100px;
+    width: 600px;
+    font-family: 'Gloucester MT';
+    font-size: xx-large;
+}
+button {
+    background-color: transparent;
+    color: black;
+    border-style: double;
+    width: 250px;
+    height: 50px;
+    border-color: burlywood;
+    font-size: large;
+    font-family: 'Goudy Old Style';
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+.projects{
+    height: 600px; 
+    width: 100%;
+    background-image: url(../../Images/otobuskiralama.jpg);
+    background-color: transparent;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.projects:hover{
+    height: 900px; 
+    width: 100%;
+}
+.proje-resim{
+    background-color: lightgoldenrodyellow ;
+    opacity: 0.8;
+    color: darkblue;
+    border-style: double;
+    width: 1000px;
+    height: 160px;
+    border-color: burlywood;
+    font-size: 55px;
+    font-family: 'Goudy Old Style';
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+.proje-resim:hover{
+    background-color: lightpink;
+    opacity: 5;
+    color: black;
+}
